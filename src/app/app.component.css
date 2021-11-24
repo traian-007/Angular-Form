@@ -1,0 +1,17 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+hr {
+    width: 100%;
+    margin-bottom: 0px;
+    opacity: 0.4;
+}
+

@@ -1,0 +1,11 @@
+<form [formGroup]='loginForm' (ngSubmit)="registerUser()">
+    <div class="form-control">
+        <label for="text">Name:</label>
+        <input type='text' name='text'  id='text' placeholder="Name" formControlName="name"/>
+        <label for="text">Age:</label>
+        <input type='text' name='text'  id='text' placeholder="Age" formControlName="age"/>
+        <label for="text">Email:</label>
+        <input type='text' name='text'  id='text' placeholder="Email" formControlName="email"/>
+        <button>Submit</button>
+    </div>
+</form>
